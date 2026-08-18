@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospital website</title>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <h1>health care</h1>
+        <nav>
+            <a href ="#home">home</a>  |
+            <a href ="#about">about</a>  |
+            <a href ="#department">department</a>  |
+            <a href ="#doctor">doctors</a> |
+            <a href ="#appointment">appointment</a>  |
+            <a href ="#emergency sevices">emergency services</a>  |
+            <a href ="#services and facilities">services and facilities</a>  |
+            <a href ="#contact">contact</a>  |
+        </nav><hr>
+    </header>
+    <!--home-->
+    <section id="home">
+        <h2>Home</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9G
+        cTtZl2fNk7ezgQz5joUqTT4I4JsRWWXOkGKj_eE8fXVmg&s"alt="hospital img" width ="200">
+        <p>A hospital homepage must offer a clean, reassuring, and easy-to-use design. It should feature prominent
+              emergency contact details, quick access to appointment booking,a search bar for doctors and 
+              services, and clear sections highlighting key medical departments to help patients find care quickly.</p>
+              <a href ="#appointment"> book appointment</a><br>
+              <strong>emergency number:1122</strong>
+    </section>
+    <!--about-->
+    <section id ="about">
+        <h2>About us</h2>
+        <p>a mission statement that explains daily patient care goals and a vision 
+             statement that outlines future health goals for the community.</p>
+        <h3>Mission</h3>
+        <p>Explains the primary purpose, patient care commitment, and daily goals.</p>
+        <h3>Vision</h3>
+        <p> Describes long-term community health goals and future medical growth.</p>
+    </section>
+    <h3>Why choose us</h3>
+    <ul>
+        <li>Expert Medical Team</li>
+        <li>Advanced Technology</li>
+        <li>Safety & Quality</li>
+        <li>Patient-Centered Care</li>
+    </ul>
+    <!--Department-->
+    <section id="department">
+        <h2>Departments</h2>
+        <ul>
+            <li>Cardiology</li>
+            <li>Neurology</li>
+            <li>Pediatrics</li>
+             <li>Orthopedics</li>
+            <li>Dermatology</li>
+            <li>General Medicine</li>
+            <li>Gynecology</li>
+            <li>Emergency Department</li>
+        </ul>
+        </section>
+        <section id="doctor">
+        <h2> our doctors</h2>
+        <table boarder ="1">
+            <tr>
+                <th>Doctor</th>
+                 <th>Specialization</th>
+                 <th>Qualification</th>
+                 <th>Experience</th>
+                 <th>Available</th>
+            </tr>
+            <tr>
+                <td>Dr. Ahmad</td>
+                <td>Cardiologist</td>
+                <td>MBBS, FCPS</td>
+                <td>15 years</td>
+                <td>Mon - Wed</td>
+            </tr>
+            <tr>
+                <td>Dr. Sara Ali</td>
+                <td>Pediatrician</td>
+                <td>MBBS, MCPS</td>
+                <td>10 Years</td>
+                <td>Tue - Thu</td>
+            </tr>
+            <tr>
+                <td>Dr. Usman Malik</td>
+                <td>Orthopedic Surgeon</td>
+                <td>MBBS, FCPS</td>
+                <td>12 Years</td>
+                <td>Mon - Fri</td>
+            </tr>
+             <tr>
+                <td>Dr. Ayesha Noor</td>
+                <td>Dermatologist</td>
+                <td>MBBS, FCPS</td>
+                <td>8 Years</td>
+                <td>sat - sun</td>
+            </tr>
+        </table>
+        </section>
+        <!--appointment-->
+    <section id="appointment">
+        <h2>Book Appointment</h2>
+          <form>
+            <label>Name:</label><br>
+            <input type="text"name =name placeholder="enter your name" required><br>
+            <label>Father/Husband name:</label><br>
+            <input type="text"name =name placeholder="enter name" required><br>
+            <label>Date of birth:</label><br>
+            <input type="date"name =date placeholder="enter date" required><br>
+            <label>Gender:</label><br>
+            <input type="radio" name =gender>male<br>
+             <input type="radio" name =gender>female<br>
+             <label>Phone</label><br>
+             <input type ="tel"name=phone placeholder ="enter you phone no." required><br>
+             <label>Email</label><br>
+             <input type="email"name =email required><br>
+             <lable>select department</lable><br>
+             <select>
+                <option>Cardiology</option>
+                <option>Neurology</option>
+                <option>Pediatrics</option>
+                <option>Orthopedics</option>
+                <option>Dermatology</option>
+                <option>General Medicine</option>
+                <option>Gynecology</option>
+                <option>Emergency Department</option>
+             </select><br>
+             <label>Select doctor</label><br>
+             <select>
+                 <option>Dr. Ahmad</option>
+                <option>Dr. Sara Ali</option>
+                <option>Dr. Usman Malik</option>
+                <option>Dr. Ayesha Noor</option>
+             </select><br>
+             <label>Appointment date</label><br>
+             <input type="date"name=date required><br>
+             <label>symptoms / Message :</label><br>
+             <textarea rows="5" cols="15"></textarea><br>
+             <button>
+                book
+             </button>
+             <button>
+                reset
+             </button><br>
+             <caption>Patient registration</caption><br>
+             <label>Name</label><br>
+             <input type="text" name =name placeholder="enter name"><br>
+             <label>CNIC</label><br>
+             <input type="number"placeholder="enter CNIC"><br>
+             <label>Blood group</label><br>
+             <select>
+                 <option>A+</option>
+                    <option>A-</option>
+                    <option>B+</option>
+                    <option>B-</option>
+                    <option>AB+</option>
+                    <option>AB-</option>
+                    <option>O+</option>
+                    <option>O-</option>
+             </select><br>
+             <label>Address</label>
+             <texarea rows="5" cols ="15"></texarea>
+            <label>Emergency contact</label><br>
+            <input type ="tel"required>
+             <button>
+                register
+             </button>
+          </form>
+    </section>
+    <!--emergency sevices-->
+    <section id ="emergency sevices">
+    <h2>Emergency sevices</h2>
+     <p>
+                Our emergency department is available
+                <strong>24 hours a day, 7 days a week.</strong>
+            </p>
+        </section>
+        <!--services and facilities-->
+        <section id="services and facilities">
+            <h2>services and facilities</h2>
+             <ol>
+                <li>Emergency Department</li>
+                <li>Intensive Care Unit (ICU)</li>
+                <li>Operation Theatre</li>
+                <li>Medical Laboratory</li>
+                <li>Pharmacy</li>
+                <li>Blood Bank</li>
+                <li>X-Ray</li>
+                <li>Ultrasound</li>
+                <li>CT Scan</li>
+                <li>MRI</li>
+                <li>Ambulance Service</li>
+            </ol>
+        </section>
+        <!--contact us-->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <address>
+                <p>📍 Main Hospital Road, Pakistan</p>
+                <p>📞 Phone: 0300-1234567</p>
+                <p>📧 Email: info@careplushospital.com</p>
+                <p>🚑 Emergency: 1122</p>
+              <footer>
+        <h3>CarePlus Hospital</h3>
+        <p>
+            Your Health, Our Priority
+        </p>
+        <p>&copy All rights are reserved</p>
+        </footer>
+        </section>
+</body>
+</html>
